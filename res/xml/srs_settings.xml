@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/srs_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <CheckBoxPreference android:persistent="false" android:title="@string/srs_sound_enable" android:key="usesrssoundenh" />
+    <com.android.settings.SrsTreblePreference android:persistent="false" android:title="@string/treble" android:key="treblesetting" android:dependency="usesrssoundenh" android:dialogTitle="@string/treble" />
+    <com.android.settings.SrsBassPreference android:persistent="false" android:title="@string/bass" android:key="basssetting" android:dependency="usesrssoundenh" android:dialogTitle="@string/bass" />
+    <ListPreference android:persistent="false" android:entries="@array/srs_musiceq_entries" android:title="@string/music_eq" android:key="srs_musiceq_effect" android:summary="@string/music_eq_summary" android:dependency="usesrssoundenh" android:entryValues="@array/srs_musiceq_values" />
+    <ListPreference android:persistent="false" android:entries="@array/srs_videoeq_entries" android:title="@string/video_eq" android:key="srs_videoeq_effect" android:summary="@string/video_eq_summary" android:dependency="usesrssoundenh" android:entryValues="@array/srs_videoeq_values" />
+</PreferenceScreen>

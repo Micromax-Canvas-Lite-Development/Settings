@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:key="security_visitor_category">
+        <SwitchPreference android:layout_gravity="center" android:id="@id/visitor_switch" android:padding="8.0dip" android:focusable="false" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="打开" android:textOff="关闭" android:title="@string/security_settings_visitor_switch" android:key="visitor_switch" />
+        <SwitchPreference android:layout_gravity="center" android:id="@id/visitor_password" android:padding="8.0dip" android:focusable="false" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="打开" android:textOff="关闭" android:title="@string/security_settings_visitor_password" android:key="visitor_password" />
+    </PreferenceCategory>
+</PreferenceScreen>

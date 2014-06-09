@@ -1,0 +1,17 @@
+version: 2.0.0-Beta7
+apkFileName: Settings.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '17'
+  targetSdkVersion: '17'
+packageInfo:
+  cur_package: com.android.settings
+  cur_package_id: '127'
+  orig_package: com.android.settings
+versionInfo:
+  versionCode: '17'
+  versionName: 4.2.2-eng.ui1.1374642478
+compressionType: false

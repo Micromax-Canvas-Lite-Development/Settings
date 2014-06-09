@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/acer_device_info_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:persistent="false" android:title="@string/acer_apn_version" android:key="Acer_APN_Version" android:summary="@string/device_info_not_available" style="?android:attr/preferenceInformationStyle" />
+    <Preference android:persistent="false" android:title="@string/product_sku" android:key="Product_SKU" android:summary="@string/device_info_not_available" style="?android:attr/preferenceInformationStyle" />
+    <Preference android:persistent="false" android:title="@string/device_info_version" android:key="Device_info_version" android:summary="@string/device_info_not_available" style="?android:attr/preferenceInformationStyle" />
+    <Preference android:persistent="false" android:title="@string/manufacturer" android:key="Manufacturer" android:summary="@string/device_info_not_available" style="?android:attr/preferenceInformationStyle" />
+    <Preference android:persistent="false" android:title="@string/model_id" android:key="Model_ID" android:summary="@string/device_info_not_available" style="?android:attr/preferenceInformationStyle" />
+    <Preference android:persistent="false" android:title="@string/rom_size" android:key="ROM_Size" android:summary="@string/device_info_not_available" style="?android:attr/preferenceInformationStyle" />
+    <Preference android:persistent="false" android:title="@string/ram_size" android:key="RAM_Size" android:summary="@string/device_info_not_available" style="?android:attr/preferenceInformationStyle" />
+    <Preference android:persistent="false" android:title="@string/horizontal_pixels" android:key="Horizontal_Pixels" android:summary="@string/device_info_not_available" style="?android:attr/preferenceInformationStyle" />
+    <Preference android:persistent="false" android:title="@string/vertical_pixels" android:key="Vertical_Pixels" android:summary="@string/device_info_not_available" style="?android:attr/preferenceInformationStyle" />
+    <Preference android:persistent="false" android:title="@string/acer_sn" android:key="Acer_SN" android:summary="@string/device_info_not_available" style="?android:attr/preferenceInformationStyle" />
+    <Preference android:persistent="false" android:title="@string/acer_snid" android:key="Acer_SNID" android:summary="@string/device_info_not_available" style="?android:attr/preferenceInformationStyle" />
+</PreferenceScreen>
