@@ -50,8 +50,8 @@
     <style name="TallTitleBarTheme" parent="@android:style/Theme.NoTitleBar">
         <item name="android:windowContentOverlay">@null</item>
     </style>
-    <style name="Theme.CreateShortCut" parent="@android:style/Theme.Holo.DialogWhenLarge" />
-    <style name="setup_wizard_theme" parent="@android:style/Theme.Holo.NoActionBar">
+    <style name="Theme.CreateShortCut" parent="@android:style/Theme.Holo.Light.DialogWhenLarge" />
+    <style name="setup_wizard_theme" parent="@android:style/Theme.Holo.Light.NoActionBar">
         <item name="android:windowSoftInputMode">adjustPan</item>
         <item name="android:preferencePanelStyle">@android:style/PreferencePanel.Dialog</item>
     </style>
@@ -104,8 +104,8 @@
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowIsFloating">true</item>
     </style>
-    <style name="CryptKeeperBlankTheme" parent="@android:style/Theme.Holo.NoActionBar">
-        <item name="android:background">#ff000000</item>
+    <style name="CryptKeeperBlankTheme" parent="@android:style/Theme.Holo.Light.NoActionBar">
+        <item name="android:background">#ffffffff</item>
     </style>
     <style name="SecurityPreferenceButtonContainer" parent="@android:style/Holo.SegmentedButton">
         <item name="android:layout_width">fill_parent</item>
@@ -135,7 +135,7 @@
         <item name="android:layout">@layout/preference_inputmethod</item>
         <item name="android:widgetLayout">@layout/preference_inputmethod_widget</item>
     </style>
-    <style name="TextAppearance.Switch" parent="@android:style/TextAppearance.Holo.Widget.Switch">
+    <style name="TextAppearance.Switch" parent="@android:style/TextAppearance.Holo.Light.Widget.Switch">
         <item name="android:textAllCaps">true</item>
     </style>
     <style name="TextAppearance.PagerTabs" parent="@android:style/TextAppearance.DeviceDefault.Small">
@@ -145,7 +145,7 @@
     <style name="KeyguardAppWidgetItem">
         <item name="android:textSize">18.0sp</item>
     </style>
-    <style name="Theme.WifiDialog" parent="@android:style/Theme.Holo.Dialog.Alert">
+    <style name="Theme.WifiDialog" parent="@android:style/Theme.Holo.Light.Dialog.Alert">
         <item name="android:windowSoftInputMode">adjustResize</item>
     </style>
     <style name="UFSR.InformationItemTitleStyle" parent="@android:style/TextAppearance.Medium">
